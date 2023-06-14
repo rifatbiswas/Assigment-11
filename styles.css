@@ -1,0 +1,50 @@
+:root {
+    --custom-font: Arial, sans-serif;
+    --primary-color: #336699;
+    --secondary-color: #99ccff;
+  }
+
+ 
+  body {
+    font-family: var(--custom-font);
+     
+  }
+  
+  h1 {
+    color: #ff0000;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: var(--secondary-color);
+    width: 600px;
+    height: 400px;
+  }
+  
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  img {
+    width: 200px;
+    height: 80px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #000000;
+    padding: 5px;
+  }
+  
+  td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  thead {
+    background-color: #999999;
+  }
+  
